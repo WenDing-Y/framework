@@ -1,0 +1,25 @@
+/*
+hibernate 注解参数详解
+@Entity  对象为entity
+@Table 映射数据库中的表
+@Id    表主键
+@ManyToOne 多对一
+hibernate自定义主键生成器，定义了id的生成策略
+@GenericGenerator(name = "generator", strategy = "native")
+为主键生成一个Id,相当于这里定义了一个生成器的名称
+@GeneratedValue(generator = "generator")
+@Column 表列名
+@Enumerated 数据列类型为枚举类型
+@Type 数据类型为hibernate里面的数据类型
+@OneToMany 一对多
+
+spring注解
+这四个注解可以将对象用spring容器进入管理
+@controller 控制器（注入服务）
+@service 服务（注入dao）
+@repository dao（实现dao访问）
+@component pojo实例化到spring容器中
+
+
+
+*/
